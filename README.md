@@ -1,3 +1,4 @@
+$ make v4v6
 Sometimes you need to open an special port that actually is open via ipv4 but not available in ipv6, you need to force the port to open for someone else with another unic ip address to see your commit. I've used this code to open 10051 port for the one of my users to see the zabbix dashboard in an especial ip address. 
 Compatibility with IPv4 Nodes of RFC 3493
 This code is a kind of dealing with the behaviour of AF_INET6 sockets. AF_INET (IPv4) sockets simply cannot and will not deal with anything IPv6.
